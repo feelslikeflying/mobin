@@ -15,4 +15,4 @@ jobs:
           upstream_branch: main
           target_repo: feelslikeflying/mobin # Replace with yours
           target_branch: main
-          github_token: ${{ env.REPO_BASENAME }}  # Need a Personal Access Token
+          github_token: ${{ vars.GTOKEN }}  # Need a Personal Access Token
